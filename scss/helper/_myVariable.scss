@@ -1,0 +1,63 @@
+$font-family-base: 'Lato', sans-serif;
+$font-family-title: 'Merriweather', serif;
+
+$font-16: 16px;
+$font-24: 24px;
+$font-32:32px;
+
+$font-48: 48px;
+$font-64: 64px;
+$font-72: 72px;
+$font-96: 96px;
+
+ul {
+    list-style: none !important;
+    padding: 0;
+    margin: 0;
+}
+
+h1,h2,h3,h4,h5 {
+    line-height: 1.5em;
+    margin-bottom: 0;
+    color: rgba($dark, .87);
+    font-family: $font-family-title;
+}
+h3{
+    font-size: $font-64;
+}
+
+p {
+    line-height: 1.5em;
+    font-family: $font-family-base;
+    margin-bottom: 0;
+}
+
+a {
+    font-family: $font-family-base;
+}
+.bg-cover {
+    background-size: cover;
+    background-position: center center;
+}
+.h-100vh {
+    height: 100vh;
+}
+
+// 避免出現X軸
+html {
+    overflow-y: scroll;
+}
+
+:root {
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+:root body {
+    position: absolute;
+}
+
+body {
+    width: 100vw;
+    overflow: hidden;
+}

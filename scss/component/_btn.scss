@@ -1,0 +1,33 @@
+//banner
+
+.cus-btn:hover{
+   background: $dark !important;
+}
+
+//symmetry
+.read-more-text {
+    position: absolute;
+    height: 56px;
+    right: 0;;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1000;
+     &:hover{
+        opacity: .87;
+    }
+}
+.read-more-icon:hover{
+    opacity: .87;
+     span{
+        transform: translateX(10%) !important;
+    }
+}
+
+.read-more-icon {
+    position: absolute;
+    height: 56px;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+   
+}

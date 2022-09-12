@@ -1,0 +1,19 @@
+.inventor-img {
+    background-image: url('../img/like.jpg');
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: absolute;
+    left: 0;
+    right: 0;
+    background-position: center 25%;
+    background-size: cover;
+}
+
+.inventor {
+    .txt {
+        position: absolute;
+        left: 0;
+        bottom: 15%;
+    }
+}

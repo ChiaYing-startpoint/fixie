@@ -1,0 +1,30 @@
+.index-banner {
+    h2 {
+        font-size: $font-96;
+    }
+}
+.banner-img {
+    background-image: url('../img/banner.jpg');
+    height: 100%;
+    position: absolute;
+    right: 0;
+    z-index: 2;
+     
+    .banner-arrow {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0; 
+        a:hover {
+                background: $light !important;
+            }
+    }
+    .material-icons {
+        font-size: $font-48;
+        
+    }
+    .txt {
+        font-size: $font-48;
+        font-family: $font-family-title;
+    }
+}

@@ -1,0 +1,30 @@
+@import "../node_modules/bootstrap/scss/functions";
+@import "./helper/variables";
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+
+// 字體
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&family=Merriweather:ital,wght@1,900&display=swap');
+
+//工具
+@import "./helper/myVariable";
+
+//元件
+@import "./component/layout";
+@import "./component/banner";
+@import "./component/btn";
+@import "./component/symmetry";
+
+//page
+@import "_index.scss";
+
+
+
+
+.card:hover{
+    opacity: .87;
+    h5{
+        text-decoration: underline;
+    }
+
+}
