@@ -14922,11 +14922,6 @@ html {
   position: absolute;
 }
 
-body {
-  width: 100vw;
-  overflow: hidden;
-}
-
 .index-header {
   border-bottom: 1px solid #000;
 }
